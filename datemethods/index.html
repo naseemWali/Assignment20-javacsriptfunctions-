@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Methods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- <h1>Current Date and Time</h1>
+    <p id="datetime"></p>
+
+    <h1>Elapsed Seconds Calculation</h1>
+    <p id="elapsedSeconds"></p>
+
+
+
+    <h1>Updated Date and Time</h1>
+    <p id="updatedDate"></p>
+
+    <h1>Your Birth Year</h1>
+    <p id="birthYear"></p> -->
+
+    <!-- <h1>K-Electric Bill</h1>
+    <p id="customerName"></p>
+    <p id="currentMonth"></p>
+    <p id="numberOfUnits"></p>
+    <p id="chargesPerUnit"></p>
+    <p id="netAmountPayable"></p>
+    <p id="latePaymentSurcharge"></p>
+    <p id="grossAmountPayable"></p> -->
+
+
+    <!-- functions chapter -->
+    <h1>Current Date and Time:</h1>
+    <p id="dateTime"></p>
+<!-- 2 -->
+    <h1>Greet the User</h1>
+
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" placeholder="Enter your first name">
+    <br><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" placeholder="Enter your last name">
+    <br><br>
+
+    <button onclick="greetUser()">Greet</button>
+
+    <!-- 3 -->
+    <h1>Add Two Numbers</h1>
+
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1" placeholder="Enter first number">
+    <br><br>
+
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2" placeholder="Enter second number">
+    <br><br>
+
+    <button onclick="addNumbers()">Add</button>
+
+    <p id="result"></p>
+
+    <p id="greeting"></p>
+
+
+  <!-- 4 -->
+  <h1>Square a Number</h1>
+
+  <label for="number">Enter a number:</label>
+  <input type="number" id="number" placeholder="Enter a number">
+  <br><br>
+
+  <button onclick="squareNumber()">Square</button>
+
+  <p id="result"></p>
+
+  <!-- 6 -->
+
+  <h1>Compute Factorial of a Number</h1>
+
+  <label for="number">Enter a number:</label>
+  <input type="number" id="number" placeholder="Enter a number" min="0">
+  <br><br>
+
+  <button onclick="computeFactorial()">Compute Factorial</button>
+
+  <p id="result"></p>
+
+<!-- 7 -->
+<h1>Count from Start to End</h1>
+
+<label for="start">Start Number:</label>
+<input type="number" id="start" placeholder="Enter start number">
+<br><br>
+
+<label for="end">End Number:</label>
+<input type="number" id="end" placeholder="Enter end number">
+<br><br>
+
+<button onclick="displayCounting()">Count</button>
+
+<p id="result"></p>
+
+<!-- 8 -->
+
+<h1>Compute Hypotenuse of a Right-Angled Triangle</h1>
+
+<label for="base">Base:</label>
+<input type="number" id="base" placeholder="Enter base length">
+<br><br>
+
+<label for="perpendicular">Perpendicular:</label>
+<input type="number" id="perpendicular" placeholder="Enter perpendicular length">
+<br><br>
+
+<button onclick="computeHypotenuse()">Calculate Hypotenuse</button>
+
+<p id="result"></p>
+
+<!-- 9 -->
+<h1>Calculate Area of Rectangle</h1>
+
+<h2>Using Arguments as Values</h2>
+<label for="widthValue">Width:</label>
+<input type="number" id="widthValue" placeholder="Enter width">
+<br><br>
+
+<label for="heightValue">Height:</label>
+<input type="number" id="heightValue" placeholder="Enter height">
+<br><br>
+
+<button onclick="calculateAreaValue()">Calculate Area (Values)</button>
+<p id="resultValue"></p>
+
+<h2>Using Arguments as Variables</h2>
+<button onclick="calculateAreaVariable()">Calculate Area (Variables)</button>
+<p id="resultVariable"></p>
+    
+
+ <!-- 10 -->
+ <h1>Palindrome Checker</h1>
+
+ <label for="inputString">Enter a string:</label>
+ <input type="text" id="inputString" placeholder="Enter a string">
+ <br><br>
+ 
+ <button onclick="checkPalindrome()">Check Palindrome</button>
+ 
+ <p id="result"></p>
+ <!-- 11 -->
+ <h1>Capitalize First Letter of Each Word</h1>
+
+ <label for="inputString">Enter a string:</label>
+ <input type="text" id="inputString" placeholder="Enter a string">
+ <br><br>
+
+ <button onclick="capitalizeWords()">Capitalize</button>
+
+ <p id="result"></p>
+
+ <!-- 12 -->
+ <h1>Find the Longest Word</h1>
+
+ <label for="inputString">Enter a string:</label>
+ <input type="text" id="inputString" placeholder="Enter a string">
+ <br><br>
+
+ <button onclick="findLongestWord()">Find Longest Word</button>
+
+ <p id="result"></p>
+
+ <!-- 13 -->
+ <h1>Count Letter Occurrences</h1>
+
+ <label for="inputString">Enter a string:</label>
+ <input type="text" id="inputString" placeholder="Enter a string">
+ <br><br>
+
+ <label for="inputLetter">Enter a letter to count:</label>
+ <input type="text" id="inputLetter" maxlength="1" placeholder="Enter a letter" style="width: 50px;">
+ <br><br>
+
+ <button onclick="countLetterOccurrences()">Count Occurrences</button>
+
+ <p id="result"></p>
+
+ <!-- 14 -->
+ <h1>The Geometrizer</h1>
+
+ <label for="inputRadius">Enter the radius of the circle:</label>
+ <input type="number" id="inputRadius" placeholder="Enter radius">
+ <br><br>
+
+ <button onclick="calcCircumference()">Calculate Circumference</button>
+ <button onclick="calcArea()">Calculate Area</button>
+
+ <p id="result"></p>
+ 
+    <script src="app.js"></script>
+</body>
+</html>
